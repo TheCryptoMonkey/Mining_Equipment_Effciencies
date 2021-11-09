@@ -2,7 +2,7 @@
 Hello, 
 
 Things to know:
-The Graphics_Cards_Efficiencies.py program takes time to gather all of the data. Don't worry about the errors on the command line and when the browser stalls
+The Graphics_Card_Web_Scraping.py program takes time to gather all of the data. Don't worry about the errors on the command line and when the browser stalls
 If you want to make this process go faster you can use the Both_URL_Lists.txt and replace the nvdia_list and the amd_list with these lists.
 If you want to see end result of this scrape, then you can go to the Google Sheets web page at the end of this file.
 
