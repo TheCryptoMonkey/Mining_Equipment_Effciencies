@@ -1,13 +1,13 @@
 # Mining_Equipment_Effciencies
 Hello, 
 
+This is the code and the end result of the data cleanup from the scrape.
+This project is still currently being worked on. 
+
 Things to know:
 The Graphics_Card_Web_Scraping.py program takes time to gather all of the data. Don't worry about the errors on the command line and when the browser stalls
 If you want to make this process go faster you can use the Both_URL_Lists.txt and replace the nvdia_list and the amd_list with these lists.
-If you want to see end result of this scrape, then you can go to the Google Sheets web page at the end of this file.
-
-This is the code and the end result of the data cleanup from the scrape.
-This project is still currently being worked on. 
+If you want to see end result of this scrape, then you can go to the Mining Equipment Effciency.csv file in this repository or to the Google Sheets web page at the end of this file.
 
 Goals for this project:
 1. To learn more about the Google Cloud Platform, Google Sheets API, and Google Drive API.
