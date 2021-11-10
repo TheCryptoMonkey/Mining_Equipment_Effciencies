@@ -1,9 +1,8 @@
 # Mining_Equipment_Effciencies
 Hello, 
 
-- This project's main goal is to scrape data from https://whattomine.com/ and to calculate the efficiency of each GPU posted on their website. This will therefore make the decision process easier for a miner to figure out what GPUs to buy on a hash rate per watt basis.
-- All of the calculations are on the basis that https://whattomine.com/ has given reliable and accurate data for each GPU respectively. These calculations are also not "hard and fast" numbers. Based on different overclock settings and different flashed VBIOSes you are able to achieve better or worse efficiency based on the settings you input.
-- This data is meant to be a high overview on the efficiency of these graphics cards.
+- This project's main goal is to scrape data from https://whattomine.com/ and to calculate the efficiency of each Graphics Card posted on their website. This will therefore make the decision process easier for a miner to figure out what Graphics Cards to buy on a hash rate per watt basis.
+- All of the calculations are on the basis that https://whattomine.com/ has given reliable and accurate data for each Graphics Card respectively. These calculations are not "hard and fast" numbers. Based on different overclock settings and different flashed VBIOSes you are able to achieve better or worse efficiency based on the settings you input. This data is meant to be a high overview on the efficiency of these graphics cards.
 - This is the code and the end result of the data cleanup from the scrape.
 - This project is still currently being worked on. 
 
@@ -27,7 +26,10 @@ The current goals for this project:
 1. To learn more about the Google Cloud Platform, Google Sheets API, and Google Drive API.
 2. To automate the process of importing my data into Google Sheets.
 3. To automate the process of formatting my data in Google Sheets.
-4. To gather more data for other mining equipment and for improving the current (GPU Efficiencies) sheet. 
+4. To gather more data for other mining equipment and for improving the current (Graphics Card Efficiencies) sheet. 
 
 Here is the data in Google Sheets: https://docs.google.com/spreadsheets/d/1HWsU_Res9zf6dKOMAwBBYzYXqNYjMD0M7nXxYF-Ctdg/edit?usp=sharing
 There are still some things that are not yet done in this spreadsheet. Such as some of the color highlighting. This will be updated in the future.
+
+If you like this tool and want to support what I'm doing, then please donate Monero to this address: 44BsJtsn4egL7p8Y6kLv9BQGHTDKKhUExb5u9jX6dpwNM3PPoMxkaEzFVFfzfUkrCHVkoL3NiANHoAhexDTTNnCfCUQkbvK 
+Otherwise, Enjoy!
