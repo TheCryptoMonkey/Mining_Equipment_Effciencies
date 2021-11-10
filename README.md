@@ -18,9 +18,9 @@ Prerequisites if you want to run this on your own machine:
 - You must install selenium after you install python: So in Windows Powershell copy & paste this command: pip install selenium  
 
 Things to know:
-- The Graphics_Card_Web_Scraping.py program takes time to gather all of the data. Don't worry about the errors on the command line and don't worry when the browser stalls.
+- The Graphics_Card_Web_Scraping.py script takes time to gather all of the data. Don't worry about the errors on the command line and don't worry when the browser stalls.
 - If you want to make this process go faster you can use the Both_URL_Lists.txt and replace the nvdia_list and the amd_list with these lists.
-- Also https://whattomine.com/ has the ability to change or update HTML on their website when they want. This means that this program might not work in the future because the "soup" objects and xpaths on dependent on the current HTML code on the website.
+- Also https://whattomine.com/ has the ability to change or update HTML on their website when they want. This means that this script might not work in the future because the "soup" objects and xpaths are dependent on the current HTML code on the website.
 - If you want to see end result of this scrape, then you can go to the Mining Equipment Effciency.csv file in this repository or to the Google Sheets web page at the end of this README.
 
 The current goals for this project:
