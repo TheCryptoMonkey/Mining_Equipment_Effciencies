@@ -148,18 +148,16 @@ with open('Mining Equipment Effciency.csv', 'w', newline='') as csv_file:
                     watts_list.append(value)
 
             #for all effciencies from each card
-            i = 0
             nvdia_eff_list = []
             for hash_rate, watts in zip(hash_rate_list, watts_list):
-                hash_rate = float(hash_rate_list[i])
-                watts = float(watts_list[i])
+                hash_rate = float(hash_rate)
+                watts = float(watts)
                 try:
                     eff = hash_rate/watts
                 except ZeroDivisionError:
                     eff = 0.0
                 formatted_effciency = format(eff, '.4f')
                 nvdia_eff_list.append(formatted_effciency)
-                i += 1
 
             nvdia_eff_list.insert(0, nvdia_cards_list[k])
             nvdia_eff_list.insert(0, ' ')
@@ -199,18 +197,16 @@ with open('Mining Equipment Effciency.csv', 'w', newline='') as csv_file:
                     watts_list.append(value)
 
             #for all effciencies from each card
-            i = 0
             amd_eff_list = []
             for hash_rate, watts in zip(hash_rate_list, watts_list):
-                hash_rate = float(hash_rate_list[i])
-                watts = float(watts_list[i])
+                hash_rate = float(hash_rate)
+                watts = float(watts)
                 try:
                     eff = hash_rate/watts
                 except ZeroDivisionError:
                     eff = 0.0
                 formatted_effciency = format(eff, '.4f')
                 amd_eff_list.append(formatted_effciency)
-                i += 1
 
             amd_eff_list.insert(0, amd_cards_list[d])
             amd_eff_list.insert(0, ' ')
